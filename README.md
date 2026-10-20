@@ -37,7 +37,7 @@ $$\[
 \mathbf{w}(n+1)=\mathbf{w}(n)+\mu e(n)\mathbf{x}(n)
 \]$$
 
-where \(d(n)\) is the primary input, \(\mathbf{x}(n)\) is the reference input vector, \(\mathbf{w}(n)\) is the adaptive coefficient vector, \(\mu\) is the step size, and \(e(n)\) is the residual error.
+where $\(d(n)\)$ is the primary input, $\(\mathbf{x}(n)\$) is the reference input vector, $\(\mathbf{w}(n)\$) is the adaptive coefficient vector, $\(\mu\$) is the step size, and $\(e(n)\$) is the residual error.
 
 ## Tools and Technologies
 
