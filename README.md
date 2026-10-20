@@ -25,16 +25,17 @@ The LMS algorithm adaptively estimates the noise component and subtracts it from
 
 The LMS algorithm updates the filter coefficients iteratively:
 
-When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+$$[
+y(n)=\mathbf{w}^{T}(n)\mathbf{x}(n)
+]$$
 
-\[
+$$\[
 e(n)=d(n)-y(n)
-\]
+\]$$
 
-\[
+$$\[
 \mathbf{w}(n+1)=\mathbf{w}(n)+\mu e(n)\mathbf{x}(n)
-\]
+\]$$
 
 where \(d(n)\) is the primary input, \(\mathbf{x}(n)\) is the reference input vector, \(\mathbf{w}(n)\) is the adaptive coefficient vector, \(\mu\) is the step size, and \(e(n)\) is the residual error.
 
