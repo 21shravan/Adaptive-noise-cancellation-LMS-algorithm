@@ -68,6 +68,3 @@ Update the script and GUI filenames in these instructions to match the files inc
 
 The current implementation focuses on MATLAB simulation and offline audio processing. Future work includes real-time noise cancellation using two microphones and deployment on a microcontroller, DSP platform, or laptop audio interface.
 
-## Author
-
-Add your name, team members, and project affiliation here.
