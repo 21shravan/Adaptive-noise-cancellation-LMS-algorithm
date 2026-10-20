@@ -5,6 +5,9 @@ A MATLAB project demonstrating Least Mean Squares adaptive filtering to suppress
 
 This project explores adaptive noise cancellation using a primary audio signal containing both the desired audio and unwanted noise, alongside a reference noise signal correlated with the interference.
 
+<img width="442" height="204" alt="Block_Diagram" src="https://github.com/user-attachments/assets/c91f694b-03d5-4499-a278-14e28c6173f0" />
+
+
 The LMS algorithm adaptively estimates the noise component and subtracts it from the primary input to produce a noise-reduced output.
 
 ## Objectives
@@ -23,6 +26,8 @@ The LMS algorithm adaptively estimates the noise component and subtracts it from
 
 ## Algorithm
 
+<img width="407" height="206" alt="adaptivefilter_general" src="https://github.com/user-attachments/assets/7615c343-bedc-453c-a5ec-94a2bdac6b7b" />
+
 The LMS algorithm updates the filter coefficients iteratively:
 
 $$[
@@ -37,7 +42,7 @@ $$\[
 \mathbf{w}(n+1)=\mathbf{w}(n)+\mu e(n)\mathbf{x}(n)
 \]$$
 
-where $\(d(n)\)$ is the primary input, $\(\mathbf{x}(n)\$) is the reference input vector, $\(\mathbf{w}(n)\$) is the adaptive coefficient vector, $\(\mu\$) is the step size, and $\(e(n)\$) is the residual error.
+where $\(d(n)\)$ is the primary input, $\(\mathbf{x}(n)\)$ is the reference input vector, $\(\mathbf{w}(n)\)$ is the adaptive coefficient vector, $\(\mu\)$ is the step size, and $\(e(n)\)$ is the residual error.
 
 ## Tools and Technologies
 
@@ -45,7 +50,7 @@ where $\(d(n)\)$ is the primary input, $\(\mathbf{x}(n)\$) is the reference inpu
 - Digital Signal Processing
 - Adaptive FIR Filtering
 - LMS Algorithm
-- Audio Signal Analysis<img width="442" height="204" alt="Block_Diagram" src="https://github.com/user-attachments/assets/c91f694b-03d5-4499-a278-14e28c6173f0" />
+- Audio Signal Analysis
 
 
 ## Running the Project
